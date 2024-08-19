@@ -64,7 +64,6 @@ const AssetUploader: React.FC<AssetUploaderProps> = ({
     if (validFiles.length > 0) {
       const filePreviews = validFiles.map((file) => URL.createObjectURL(file));
       setPreviews(filePreviews);
-      console.log(filePreviews);
 
       try {
         onUpload(validFiles);
