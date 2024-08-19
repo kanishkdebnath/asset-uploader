@@ -1,0 +1,40 @@
+.previews-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.default-preview-box {
+  width: 400px;
+  height: 200px;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #999;
+}
+
+.preview-box {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.remove-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.preview-media {
+  max-width: 100%;
+  max-height: 100%;
+}
